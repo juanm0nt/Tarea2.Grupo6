@@ -140,9 +140,9 @@ classDiagram
 # Resumen Final
 
 El proyecto cumple con todas las etapas requeridas:
-- Comunicaci贸n entre publicadores y suscriptores.
-- Reproducci贸n multimedia.
+- Comunicación entre publicadores y suscriptores.
+- Reproducción multimedia.
 - Trayectorias GPS.
-- Integraci贸n de funcionalidades en un solo simulador.
-- Documentaci贸n Javadoc generada correctamente.
+- Integración de funcionalidades en un solo simulador.
+- Documentación Javadoc generada correctamente.
 - Diagrama de clases documentado.
