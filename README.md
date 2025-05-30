@@ -1,4 +1,4 @@
-# README - Proyecto Publisher-Subscriber Simulador (Tarea2)
+# README - Proyecto Simulador Grafico del Patron De Diseño Publicador-Suscriptor (Tarea2)
 
 ## Resumen
 
