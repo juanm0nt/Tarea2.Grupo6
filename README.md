@@ -67,8 +67,28 @@ Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber 
 - Opciones para crear publicadores de video, GPS, y suscriptores.
 - Sistema totalmente interactivo.
 
----
+# Como ejecutar el proyecto
 
+### Requisitos previos
+
+- [ ] Java 17 (o superior)  
+- [ ] JavaFX SDK  
+- [ ] Se recomienda IntelliJ IDEA
+## Desde linea de comandos:
+
+Clona el repositorio y entra a la raiz 
+```
+    git clone https://github.com/juanm0nt/Tarea2.Grupo6
+    cd Tarea2.Grupo6/tarea2
+```
+Compila el codigo (!AJUSTA TU RUTA A JAVAFX SDK)
+```
+javac --module-path AQUI TU RUTA A JAVAFX SDK --add-modules javafx.controls,javafx.fxml,javafx.media -d bin src/Stage4/Stage4/*.java
+```
+Ejecuta el proyecto
+```
+java --module-path AQUI TU RUTA A JAVAFX SDK --add-modules javafx.controls,javafx.fxml,javafx.media -cp bin Stage4.Stage4
+``` 
 # Documentación Extra Usada
 
 - [Documentación oficial de JavaFX](https://openjfx.io/)
