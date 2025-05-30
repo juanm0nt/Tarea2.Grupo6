@@ -31,3 +31,23 @@ Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber 
 
 **Video usado para prueba:**
 - [https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4](https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4)
+## **Stage 3 - GPS Car Tracker**
+
+**Objetivo:**
+- Publicadores de GPS que publican la trayectoria de un auto.
+- Suscriptores muestran el auto moviéndose según posiciones.
+
+**Solución Aplicada:**
+- Implementamos interpolación de posiciones con `Timeline`.
+- Movimiento fluido del punto en un `Pane`.
+
+**Archivo usado para prueba de ruta:**
+```
+0 100 100
+3 300 100
+6 300 300
+9 100 300
+12 100 100
+```
+(Archivo sugerido: `ruta_prueba.txt`)
+
