@@ -50,4 +50,25 @@ Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber 
 12 100 100
 ```
 (Archivo sugerido: `ruta_prueba.txt`)
+## **Stage 4 - Simulador Completo**
+
+**Objetivo:**
+- Integrar publicadores y suscriptores de Video y GPS en un solo simulador.
+
+**Solución Aplicada:**
+- Menú de selección `Publisher` y `Subscriber`.
+- Opciones para crear publicadores de video, GPS, y suscriptores.
+- Sistema totalmente interactivo.
+
+---
+
+# Documentación Extra Usada
+
+- [Documentación oficial de JavaFX](https://openjfx.io/)
+- [Oracle JavaFX Media API](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/media/Media.html)
+- [StackOverflow - Uso de MediaView en JavaFX](https://stackoverflow.com/questions/28958033/javafx-mediaplayer-simple-example)
+- [Foros de StackOverflow - Timeline Animation](https://stackoverflow.com/questions/27334455/animation-using-timeline-in-javafx)
+- [Tutorial JavaFX Controls](https://code.makery.ch/library/javafx-tutorial/)
+
+---
 
