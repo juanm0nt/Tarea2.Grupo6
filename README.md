@@ -88,3 +88,48 @@ javadoc --module-path /Users/juanmonteverde/IdeaProjects/javafx-sdk-24.0.1/lib -
 5. Abrir `doc/index.html` en el navegador.
 
 ---
+
+# Diagrama de Clases de Stage 4
+
+ **Diagrama de clases**:
+
+```mermaid
+classDiagram
+    class Component {
+        - String name
+        + getName()
+    }
+
+    class Publisher {
+        - Broker broker
+        - String topicName
+        + publish(message)
+    }
+
+    class Subscriber {
+        - Broker broker
+        - String topicName
+        + update(message)
+    }
+
+    class Broker {
+        - Map~String, Topic~ topics
+        + publish(topicName, message)
+        + subscribe(topicName, subscriber)
+    }
+
+    class Topic {
+        - String name
+        - List~Subscriber~ subscribers
+        + addSubscriber(subscriber)
+        + broadcast(message)
+    }
+
+    Component <|-- Publisher
+    Component <|-- Subscriber
+    Publisher <|-- VideoPublisher
+    Publisher <|-- GPSCarPublisher
+    Subscriber <|-- VideoFollower
+    Subscriber <|-- GPSCarFollower
+    Broker o-- Topic
+    Topic o-- Subscriber
