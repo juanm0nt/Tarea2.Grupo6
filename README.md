@@ -5,6 +5,14 @@
 Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber (Publicador-Suscriptor), dividido en 4 etapas de complejidad ascendente.
 
 ---
+## Integrantes
+
+Juan Monteverde
+Abraham Garia
+Diego Saavedra
+Benjamin Matus
+
+---
 
 # Etapas del Desarrollo
 
