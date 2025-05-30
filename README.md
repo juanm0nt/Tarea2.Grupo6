@@ -133,3 +133,16 @@ classDiagram
     Subscriber <|-- GPSCarFollower
     Broker o-- Topic
     Topic o-- Subscriber
+```
+
+---
+
+# Resumen Final
+
+El proyecto cumple con todas las etapas requeridas:
+- Comunicaci贸n entre publicadores y suscriptores.
+- Reproducci贸n multimedia.
+- Trayectorias GPS.
+- Integraci贸n de funcionalidades en un solo simulador.
+- Documentaci贸n Javadoc generada correctamente.
+- Diagrama de clases documentado.
