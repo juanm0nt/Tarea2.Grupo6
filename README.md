@@ -6,11 +6,11 @@ Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber 
 
 ---
 ## Integrantes
-
-Juan Monteverde.
-Abraham Garcia.
-Diego Saavedra.
-Benjamin Matus.
+Grupo 6:
+-Juan Monteverde.
+-Abraham Garcia.
+-Diego Saavedra.
+-Benjamin Matus.
 
 ---
 
