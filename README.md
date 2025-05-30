@@ -72,3 +72,19 @@ Este proyecto implementa un simulador basado en el patrón Publisher-Subscriber 
 
 ---
 
+# Generación de Documentación en Javadoc
+
+**Comando utilizado:**
+
+```bash
+javadoc --module-path /Users/juanmonteverde/IdeaProjects/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml,javafx.media -d doc src/Stage4/*.java
+```
+
+**Pasos:**
+1. Abrir terminal.
+2. Ubicarse en el directorio del proyecto `tarea2`.
+3. Ejecutar el comando anterior.
+4. La documentación generada estará en la carpeta `doc/`.
+5. Abrir `doc/index.html` en el navegador.
+
+---
